@@ -70,8 +70,6 @@ main {
 /**** CONTENT *****/
 .content {
     float: right;
-    vertical-align: top;
-    padding-left: 50px;
 }
 .title {
     font-size: 45px;
