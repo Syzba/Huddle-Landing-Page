@@ -1,0 +1,102 @@
+/*****
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Violet: hsl(257, 40%, 49%)
+
+## Typography
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400, 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/)
+*****/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+html,body {
+    max-width: 1440px;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+body {
+    background-image:url(images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 78vh;
+    max-width: 1440px;
+}
+
+.cover-image {
+    padding: 80px;
+}
+.header-logo {
+    padding-left: 80px;
+    padding-top: 25px;
+}
+
+/**** CONTENT *****/
+.content {
+    float: right;
+    vertical-align: top;
+    padding-left: 50px;
+}
+.title {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.sub-text {
+    font-size: 18px;
+}
+.register {
+    border:none;
+    border-radius: 25px;
+    padding: 18px 64px;
+    font-size: 16px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.socials {
+    filter: invert(84%) sepia(82%) saturate(11%) hue-rotate(189deg) brightness(109%) contrast(101%);
+    display: inline;
+    width: 50px;
+    height: 40px;
+    float: right;
+    padding-right:15px;
+}
+footer {
+    padding-right: 100px;
+}
